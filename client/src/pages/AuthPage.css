@@ -1,0 +1,58 @@
+
+.authPage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    background-color: #f8f3f5;
+    flex: 1;
+  }
+  
+  .window {
+    background-color: #d3ceca;
+    position: relative;
+    width: 800px;
+    height: 600px;
+    left: 17%;
+    right: 50%;
+  }
+
+  .header {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: 50px;;
+  }
+
+  .box {
+    position: relative;
+    left: 34px;
+    width: 710px;;
+  }
+  
+  .label {
+    position: relative;
+    left: 20px;
+  
+  }
+  
+  .buttonLog {
+    background-color: black ;
+    color: white;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    left: 200px;
+  }
+
+ .noAcc {
+    position: relative;
+    top: 20px;  
+    left: 60%;
+ }
+
+ .reg {
+    font-weight: 500;
+ }

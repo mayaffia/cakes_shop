@@ -1,0 +1,45 @@
+
+.mainPage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+  background-color: #f8f3f5;
+  flex: 1;
+}
+
+
+
+.mainPicAndName {
+    position: relative;
+  }
+  
+  .mainCake {
+    width: 100%;
+    height: 450px;
+  }
+
+  .name {
+    position: absolute;
+    top: 170px;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 80px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  
+.headersText {
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+  }
+
+  .mainText {
+    position: relative;
+    top : 20px;
+  }

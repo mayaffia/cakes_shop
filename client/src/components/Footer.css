@@ -1,0 +1,11 @@
+.footer {
+    background-color: black;
+    height: 80px;
+  }
+  
+  .footerText {
+    position: relative;
+    top:30px;  
+    text-align: center;
+    color: white;
+  }

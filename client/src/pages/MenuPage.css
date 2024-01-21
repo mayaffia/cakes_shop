@@ -1,0 +1,81 @@
+.menuPage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuMain {
+  background-color: #f8f3f5;
+  flex: 1;
+}
+
+.goodsWrapper {
+    position: relative;
+    top: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+  width: 33%;
+}
+
+.typeName {
+  font-size: 100px;
+  position: relative;
+  left: 100px;
+}
+
+.description {
+  position: relative;
+  left : 270px;
+  top: 60px;
+  max-width: 500px;
+  font-size: 12px;
+}
+
+.nameAndDes {
+  display: flex;
+  flex-direction: row;
+}
+
+.typeButtons {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 100%;
+   flex-wrap: wrap;
+}
+
+.typeButton {
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 10px;
+  background-color: #f8f3f5;
+  width: 130px;
+  height: 35px; 
+}
+
+.cakeCard {
+  background-color: #ff6a97;
+  border: none;
+  position: relative;
+  left: 25%;
+}
+
+.downloadMore {
+  width: 200px;
+  height: 70px;
+  position: relative;
+  bottom:20px;
+  left: 42%;
+}
+
+.space {
+  height: 100px;
+}

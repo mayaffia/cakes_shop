@@ -1,0 +1,55 @@
+
+  .logo {
+      position: relative;
+      left: 30px;
+  }
+  
+  .menu {
+      position: absolute;
+      left: 200px;
+      top: 40px;
+  }
+
+  .order {
+    position: absolute;
+    left: 350px;
+    top: 40px;
+  }
+  
+  .delivery {
+    position: absolute;
+    left: 500px;
+    top: 40px;
+  }
+  
+  .contacts {
+    position: absolute;
+    left: 650px;
+    top: 40px;
+  }
+  
+  .accountImage {
+    position: absolute;
+    right: 240px;
+    top: 40px;
+  }
+  
+  .cartImage {
+    position: absolute;
+    right: 200px;
+    top: 38px;
+  }
+
+  .button {
+    position: absolute;
+    right: 30px;
+    top: 27px;
+    background-color: #ff6a97;
+    width: 150px;
+    height: 50px;
+    border: #ff6a97;
+    border-radius: 15px;
+    color: white;
+    font-weight: 450;
+  }
+  
